@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a5f9b89d6d4994dbd3eac37592657d, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: 
+  Level:
+    Quests:
+    - questName: Butcher
+      description: Destroy Any Unit
+      questType: 1
+      targetValue: 10
+      specificType: 3
+    - questName: Red light
+      description: Destroy Red Unit
+      questType: 2
+      targetValue: 5
+      specificType: 0
+    - questName: Stopwatch
+      description: Spend required time in the game
+      questType: 0
+      targetValue: 30
+      specificType: 2
+    Level: 1
+    Participants:
+    - UnitType: 0
+      Count: 15
+    - UnitType: 1
+      Count: 15
+    AnchorSpawnPoint: {x: 0, y: 0.1, z: 0}
+  Quests:
+  - {fileID: 11400000, guid: 87dd8de51aa744d4a9dea51595f96f71, type: 2}
+  - {fileID: 11400000, guid: 0cba79231f5379841a915c686f841c7d, type: 2}
+  - {fileID: 11400000, guid: 59fb38c74b098594e86552db49f6c4e4, type: 2}
